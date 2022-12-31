@@ -1,8 +1,10 @@
 import random
 import tkinter as tk
 
+
 def roll(facelabel):
     facelabel.config(image=face_dict[random.randint(1, 6)])
+
 
 root = tk.Tk()
 root.configure(background="white")
