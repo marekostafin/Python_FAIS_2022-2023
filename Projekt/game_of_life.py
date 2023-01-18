@@ -81,7 +81,7 @@ def main():
 
     screen.fill(GRAY)
     grid = np.zeros((WINDOW_WIDTH // box_size, WINDOW_HEIGHT // box_size))
-    pause_game = False
+    pause_game = True
 
     while True:
         drawGrid(grid, box_size)
